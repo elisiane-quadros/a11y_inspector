@@ -1,8 +1,8 @@
 # A11y_Inspector 🕵️‍♀️♿
 
-A11y_Inspector é uma solução web full stack para **análise automatizada de acessibilidade digital** em sites, alinhada à [Lei Brasileira de Inclusão (LBI)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm) e às diretrizes internacionais da [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/). O objetivo é identificar barreiras de navegação para pessoas com deficiência, promovendo uma web mais inclusiva.
+A11y_Inspector é uma solução web full stack para **análise automatizada de acessibilidade digital** em sites, alinhada à [Lei Brasileira de Inclusão (LBI)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm) e às diretrizes internacionais da [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/).
 
----
+Este projeto foi desenvolvido como um desafio pessoal para aprimorar minhas habilidades técnicas, com foco em resolver problemas reais do mercado de trabalho. Escolhi o tema acessibilidade digital por ser uma área de interesse e relevância, criando uma ferramenta prática para inspecionar e analisar a acessibilidade de sites de forma automatizada, promovendo uma web mais inclusiva.
 
 ## Funcionalidades
 
@@ -37,7 +37,7 @@ A11y_Inspector é uma solução web full stack para **análise automatizada de a
 
 ---
 
-## Como Usar
+## Instalação e Execução
 
 ### 1. Clone o repositório
 
@@ -46,16 +46,17 @@ git clone https://github.com/seu-usuario/a11y_inspector.git
 cd a11y_inspector
 ```
 
-### 2. Instale as dependências
-
 #### Backend
+
+### 2.Crie e ative o ambiente virtual
 
 ````bash
 cd backend
 python -m venv venv
-source venv/bin/activate  # ou venv\Scripts\activate no Windows
-pip install -r requirements.txt
-playwright install  # Necessário para o Playwright funcionar
+# Linux/macOS
+source venv/bin/activate
+# Windows
+venv\Scripts\activate
 
 ## Execute o projeto
 
@@ -98,7 +99,7 @@ O botão **"Baixar Relatório em PDF"** gera um arquivo acessível contendo:
 ---
 
 ## Estrutura de Pastas (Frontend)
-
+```
 src/
 │
 ├── components/
@@ -116,12 +117,25 @@ src/
 │ └── api.ts
 │
 └── App.tsx
+```
 
----
+## Estrutura de Pastas (Backend)
 
-## Inspiração e Propósito
+```
+backend/
+│
+├── main.py
+├── requirements.txt
+│
+├── scanner/
+│   ├── __init__.py
+│   └── core.py
+│
+├── utils/
+│   ├── __init__.py
+│   └── contrast.py
+```
 
-Este projeto foi desenvolvido como um desafio pessoal para aprimorar minhas habilidades técnicas, com foco em resolver problemas reais do mercado de trabalho. Escolhi o tema acessibilidade digital por ser uma área de interesse e relevância, criando uma ferramenta prática para inspecionar e analisar a acessibilidade de sites de forma automatizada.
 
 ---
 
