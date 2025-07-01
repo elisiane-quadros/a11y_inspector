@@ -2,7 +2,11 @@
 
 A11y_Inspector é uma solução web full stack para **análise automatizada de acessibilidade digital** em sites, alinhada à [Lei Brasileira de Inclusão (LBI)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm) e às diretrizes internacionais da [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/).
 
----
+<<<<<<< HEAD
+Este projeto foi desenvolvido como um desafio pessoal para aprimorar minhas habilidades técnicas, com foco em resolver problemas reais do mercado de trabalho. Escolhi o tema acessibilidade digital por ser uma área de interesse e relevância, criando uma ferramenta prática para inspecionar e analisar a acessibilidade de sites de forma automatizada, promovendo uma web mais inclusiva.
+=======
+
+> > > > > > > aa10540191a33b8ca557d89a59bbd64495d0aeb2
 
 ## Funcionalidades
 
@@ -46,19 +50,24 @@ cd a11y_inspector
 
 ### 2.Crie e ative o ambiente virtual
 
-````bash
+```bash
 cd backend
 python -m venv venv
-source venv/bin/activate  # ou venv\Scripts\activate no Windows
+# Linux/macOS
+source venv/bin/activate
+# Windows
+venv\Scripts\activate
+
 pip install -r requirements.txt
 playwright install  # Necessário para o Playwright funcionar
+```
 
 ## Execute o projeto
 
 ```bash
 cd backend
 uvicorn main:app --reload
-````
+```
 
 O backend estará disponível em [http://localhost:8000](http://localhost:8000)  
 A documentação interativa da API (Swagger UI) estará em [http://localhost:8000/docs](http://localhost:8000/docs)
@@ -111,14 +120,25 @@ src/
 │ └── api.ts
 │
 └── App.tsx
+```
 
----
+## Estrutura de Pastas (Backend)
 
-## Inspiração e Propósito
+````
+backend/
+│
+├── main.py
+├── requirements.txt
+│
+├── scanner/
+│   ├── __init__.py
+│   └── core.py
+│
+├── utils/
+│   ├── __init__.py
+│   └── contrast.py
+```
 
-Este projeto foi desenvolvido como um desafio pessoal para aprimorar minhas habilidades técnicas, com foco em resolver problemas reais do mercado de trabalho. Escolhi o tema acessibilidade digital por ser uma área de interesse e relevância, criando uma ferramenta prática para inspecionar e analisar a acessibilidade de sites de forma automatizada.
-
----
 
 ## Autor(a)
 
@@ -128,4 +148,4 @@ Desenvolvido por **Elisiane Quadros**
 ## Licença
 
 Este projeto está licenciado sob a [MIT License](LICENSE).
-```
+````
