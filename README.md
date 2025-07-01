@@ -124,7 +124,7 @@ src/
 
 ## Estrutura de Pastas (Backend)
 
-````
+```
 backend/
 │
 ├── main.py
@@ -132,13 +132,14 @@ backend/
 │
 ├── scanner/
 │   ├── __init__.py
-│   └── core.py
+│   └── core.pycls
+
 │
 ├── utils/
 │   ├── __init__.py
 │   └── contrast.py
-```
 
+```
 
 ## Autor(a)
 
@@ -148,4 +149,3 @@ Desenvolvido por **Elisiane Quadros**
 ## Licença
 
 Este projeto está licenciado sob a [MIT License](LICENSE).
-````
