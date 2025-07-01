@@ -2,11 +2,7 @@
 
 A11y_Inspector é uma solução web full stack para **análise automatizada de acessibilidade digital** em sites, alinhada à [Lei Brasileira de Inclusão (LBI)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm) e às diretrizes internacionais da [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/).
 
-<<<<<<< HEAD
 Este projeto foi desenvolvido como um desafio pessoal para aprimorar minhas habilidades técnicas, com foco em resolver problemas reais do mercado de trabalho. Escolhi o tema acessibilidade digital por ser uma área de interesse e relevância, criando uma ferramenta prática para inspecionar e analisar a acessibilidade de sites de forma automatizada, promovendo uma web mais inclusiva.
-=======
-
-> > > > > > > aa10540191a33b8ca557d89a59bbd64495d0aeb2
 
 ## Funcionalidades
 
