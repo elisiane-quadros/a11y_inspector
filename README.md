@@ -2,7 +2,6 @@
 
 A11y_Inspector é uma solução web full stack para **análise automatizada de acessibilidade digital** em sites, alinhada à [Lei Brasileira de Inclusão (LBI)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm) e às diretrizes internacionais da [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/). O objetivo é identificar barreiras de navegação para pessoas com deficiência, promovendo uma web mais inclusiva.
 
----
 
 ## Funcionalidades
 
@@ -15,7 +14,6 @@ A11y_Inspector é uma solução web full stack para **análise automatizada de a
 - **Teste automático de contraste** entre texto e fundo
 - **Geração de relatórios em PDF** acessíveis e estilizados
 
----
 
 ## Tecnologias
 
@@ -35,7 +33,7 @@ A11y_Inspector é uma solução web full stack para **análise automatizada de a
 - [wcag-contrast-ratio](https://pypi.org/project/wcag-contrast-ratio/) para análise de contraste
 - [Requests](https://docs.python-requests.org/) para requisições HTTP
 
----
+
 
 ## Como Usar
 
@@ -56,7 +54,7 @@ python -m venv venv
 source venv/bin/activate  # ou venv\Scripts\activate no Windows
 pip install -r requirements.txt
 playwright install  # Necessário para o Playwright funcionar
-
+````
 ## Execute o projeto
 
 ```bash
@@ -74,17 +72,15 @@ cd frontend
 npm install
 # ou
 yarn
-
+````
 ## Execute o projeto
 
 ```bash
 npm run dev
 # ou
 yarn dev
-
+````
 Abra [http://localhost:5173](http://localhost:5173) no navegador.
-
----
 
 ## Relatório PDF
 
@@ -94,8 +90,6 @@ O botão **"Baixar Relatório em PDF"** gera um arquivo acessível contendo:
 - Data da inspeção
 - Lista dos problemas encontrados
 - Layout limpo, estruturado e personalizado
-
----
 
 ## Estrutura de Pastas (Frontend)
 
@@ -117,20 +111,14 @@ src/
 │
 └── App.tsx
 
----
-
 ## Inspiração e Propósito
 
 Este projeto foi desenvolvido como um desafio pessoal para aprimorar minhas habilidades técnicas, com foco em resolver problemas reais do mercado de trabalho. Escolhi o tema acessibilidade digital por ser uma área de interesse e relevância, criando uma ferramenta prática para inspecionar e analisar a acessibilidade de sites de forma automatizada.
-
----
 
 ## Autor(a)
 
 Desenvolvido por **Elisiane Quadros**
 [LinkedIn](https://www.linkedin.com/in/elisiane-quadros/) • © 2025
-
----
 
 ## Licença
 
