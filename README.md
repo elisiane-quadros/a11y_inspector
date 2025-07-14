@@ -96,52 +96,7 @@ O botão **"Baixar Relatório em PDF"** gera um arquivo acessível contendo:
 - Lista dos problemas encontrados
 - Layout limpo, estruturado e personalizado
 
-## Estrutura de Pastas (Frontend)
-
-```
-src/
-│
-├── components/
-│ ├── UrlForm.tsx
-│ ├── ResultCard.tsx
-│ └── ReportPDF.tsx
-│
-├── interfaces/
-│ ├── AccessibilityResults.ts
-│ ├── ResultContrast.ts
-│ ├── ResultItem.ts
-│ └── CheckRequest.ts
-│
-├── services/
-│ └── api.ts
-│
-└── App.tsx
-```
-
-## Estrutura de Pastas (Backend)
-
-```
-backend/
-│
-├── main.py
-├── requirements.txt
-│
-├── scanner/
-│   ├── __init__.py
-│   └── core.pycls
-
-│
-├── utils/
-│   ├── __init__.py
-│   └── contrast.py
-
-```
-
-## Autor(a)
-
 Desenvolvido por **Elisiane Quadros**
-[LinkedIn](https://www.linkedin.com/in/elisiane-quadros/) • © 2025
-
-## Licença
+[LinkedIn](https://www.linkedin.com/in/elisiane-quadros/) • © 2025  
 
 Este projeto está licenciado sob a [MIT License](LICENSE).
